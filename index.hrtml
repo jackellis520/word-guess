@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Monoton" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>HANGMAN</h1>
+            <h2>Guess That Movie!</h2>
+    </header>
+    <div id="mainDiv">
+        <div id="leftDiv">
+            <p>ROLE THAT MOVIE TRAILER!</p>
+            <p id="smallfont">(If you guessed the one-word movie title correctly)</p>
+            <div id="filmDiv">
+                <img id="img" src="http://fanboygaming.com/wp-content/uploads/2012/10/movie2.jpg" alt="Movie Film">
+            </div>
+        </div>
+        <div id="rightDiv">
+            <p>PRESS ANY KEY TO GET STARTED!</p>
+            <br>
+            <div id="wins">WINS
+            <br><br>
+                <span id="winCounter">0</span>
+            </div>
+            <div id="loss">LOSSES
+            <br><br>
+                <span id="lossCounter">0</span>
+            </div>
+        <br><br>    
+            <div id="currentWord">CURRENT WORD
+            <br><br>
+                <span id="titleToGuess">_ _ _ _ _ _ _ _ _ _</span>
+            </div>
+            <div id="guessesRemaining">NUMBER OF GUESSES REMAINING
+                <span id="numGuessesLeft"></span>
+            </div>
+            <div id="ltrGuessed">LETTERS ALREADY GUESSED
+            <br><br>
+                <span id="wrongGuesses"></span>
+            </div>
+        </div>
+    </div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
