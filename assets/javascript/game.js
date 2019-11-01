@@ -137,38 +137,3 @@ document.onkeyup = function(event){
 }
 
 
-// Below are my attempts to either play a video(movie trailer) or replace main image with movie poster image when a word is guessed correctly.
-// I haven't figured out how to set the if/else statement that if chosenTitle == 'salt' or another movie title, replace main image
-// with corresponding movie poster or movie trailer.  
-
-// Replace image with video corresponding to word/movie title succesfully guessed
-    // var video = document.createElement("iframe");
-    // elem.setAttribute("src", "https://www.imdb.com/videoembed/vi1236141849");
-    // elem.setAttribute("height", "350");
-    // elem.setAttribute("width", "250");
-    // elem.setAttribute("frameborder", "0");
-    // elem.setAttribute("allow", "autoplay; encrypted-media");
-    // elem.src = "https://www.imdb.com/videoembed/vi1236141849";    
-    //     // if('#titleToGuess' == "salt"){
-    // document.getElementById("img").appendChild(video);         
-    // // }
-
-// Replace starting image with movie poster image corresponding to word/movie title succesfully guessed    
-    // var poster = document.createElement("img");
-    // elem.setAttribute("src", "https://m.media-amazon.com/images/M/MV5BMjIyODA2NDg4NV5BMl5BanBnXkFtZTcwMjg4NDAwMw@@._V1_SY1000_CR0,0,672,1000_AL_.jpg");
-    // elem.setAttribute("alt", "Salt");
-    // elem.src = "https://m.media-amazon.com/images/M/MV5BMjIyODA2NDg4NV5BMl5BanBnXkFtZTcwMjg4NDAwMw@@._V1_SY1000_CR0,0,672,1000_AL_.jpg";    
-    //     // if('#titleToGuess' == "salt"){
-    // document.getElementById("img").appendChild(poster); 
-
-// more attempts...    
-    // function image(thisImg) {
-    //     var img = document.createElement("img");
-    //     img.src = "assets\images\Salt-MoviePoster.jpg";
-    //     document.getElementById('filmDiv').appendChild(img);
-    // }
-    // if (movieTitles.length == 'salt') {
-    //     image("assets\images\Salt-MoviePoster.jpg");
-    // // } else {
-    // //     image("http://fanboygaming.com/wp-content/uploads/2012/10/movie2.jpg");
-    // }
